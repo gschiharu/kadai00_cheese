@@ -1,0 +1,344 @@
+/* ここから下に記載していく */
+
+
+
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 1200px;
+    padding: 0;
+  }
+
+  .wrap {
+    width: 1200px;
+    margin-right: auto;
+    margin-left : auto;
+  }
+
+/* ヘッドとメインをわけるの、どうすればいい？動画確認 */
+/* よこに並べるのどうやるの？ */
+#header {
+  background-color: white;
+  font-size: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.field {
+  display: left;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.field {
+  font-size: 21px;
+  color: #222222;
+}
+
+.field:hover {
+  background-color: #FFE77F;
+}
+
+
+.field ul {
+    display: flex;
+    justify-content: right;
+    padding: 0;
+  }
+.field ul li:hover {
+    color: #ffd61a;
+  } 
+.field ul li {
+    font-size: 21px;
+    margin-right: 30px;
+  }
+
+  /* topイメージに文字かけない。。ラップの仕方がだめかな。。 */
+
+  .mainvisual {
+    position: relative;
+}
+
+.mainvisual_image {
+    width: 1200px;
+    object-fit: cover;
+}
+
+.visualtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+}
+
+.visualtext1 {
+    color: #fafafa;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.visualtext2 {
+    color: #fafafa;
+    font-size: 32px;
+    padding: 15px;
+}
+
+
+.mainvisualA {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+.mainvisualA h2 {
+  font-size: 24px;
+  color: #ffd61a;
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  }
+.mainvisualA h3 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  color: #222222;
+  font-size: 18px;
+}
+.message {
+  margin-bottom: 40px;
+  line-height: 25px;
+  color: #222222;
+  font-size: 16px; 
+}
+  
+.mainvisualA p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+#mainvisualC {
+  justify-content: center;
+}
+#mainvisualC {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+#mainvisualC h2 {
+    font-size: 24px;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    }
+    .course_title {
+      color: #222222;
+      font-size: 24px;
+      font-weight: bold;
+      padding-top: 60px;  
+      padding-bottom: 15px;
+  }
+  
+  .course_text {
+      font-size: 16px;
+      padding-top: 15px;
+      padding-bottom: 60px;
+      line-height: 30px
+  }
+  
+  .course_photo {
+      display: grid;
+      grid-template-rows: 400px 400px 400px;
+      grid-template-columns: 600px 600px;
+      margin-right: auto;
+      margin-left : auto;
+  }
+  
+  .course_photo_size {
+      width: 600px;
+      height: 400px;
+      object-fit: cover;
+  }
+  .itemB {
+    background-color: #fafafa;
+    padding-top: 120px;
+    padding-left: 50px;
+}
+
+.item_title {
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;  
+    padding-bottom: 20px;
+}
+
+.item_text {
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 30px;
+    width: fit-content;
+}
+
+.itemC {
+    background-color: #fafafa;
+    width: 550px;
+    height: 280px;
+    padding-top: 120px;
+    padding-right: 50px;
+    margin: 0 0 0 auto;
+}
+
+.itemC_title {
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;  
+    padding-bottom: 20px;
+    width: 429.13px;
+    margin-left: auto;
+}
+
+.itemC_text {
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 30px;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.itemF {
+    background-color: #fafafa;
+    padding-top: 120px;
+    padding-left: 50px;
+}  
+#news {
+  text-align: center;
+}
+
+.news_title {
+  color: #ffd61a;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+.news_title2 {
+  color: #222;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 45px;
+}
+
+.news_photo {
+  display: flex;
+  justify-content: center;
+}
+
+.news3 {
+  width: 300px;
+  font-size: 14px;
+  padding: 15px;
+  line-height: 25px;
+}
+
+.news3:hover {
+  background-color: #FFF5CC;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 300px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #ffd61a;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+
+.button:hover {
+  background-color: #FFE77F;
+}
+
+
+.mainvisualACC {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #fafafa; ;
+  }
+.mainvisualACC h2 {
+    font-size: 24px;
+    color: #ffd61a;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  } 
+.mainvisualACC h3 {
+      font-size: 18px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+.mainvisualCO {
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 60px;
+  }
+.mainvisualCO h2 {
+      font-size: 24px;
+      color: #222222;
+      font-size: 24px;
+      margin-top: 60px;
+      margin-bottom: 30px;
+  }
+.mainvisualCO h3 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  } 
+.mainvisualCO p {
+  margin-bottom: 40px;
+  line-height: 25px;
+  color: #222222;
+  font-size: 16px;
+
+  }
+  .contact-form {
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+  /* inputとtextareaのCSSを指定してください */
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  /* contact-submitのCSSを指定してください */
+  .contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+  }
+
+
+.footer p { 
+  text-align: center;
+  background-color: #707070;
+  padding: 30px;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* imageのmarginとpaddingをCSSで指定するのはどうやう？ */
+
